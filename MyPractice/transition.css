@@ -1,0 +1,74 @@
+div{
+    height: 100px;
+    width: auto;
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-size: auto;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    position: relative;
+    z-index: 2;
+}
+div:hover{
+    background-color: green;
+    color: aliceblue;
+    font-size: 35px;
+}
+div:active{
+    color:white;
+    background-image: url("food.jpg");
+    background-size: contain;
+}
+#div1{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    rotate: 45deg;
+    position: absolute;
+    left: 33px;
+    top: 150px;
+    z-index: 1;
+    color: white;
+}
+#div2{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border: 10px solid yellow;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    border-radius: 50%;
+    rotate: 45deg;
+    position: absolute;
+    right:33px;    
+    top: 150px;
+    z-index: 1;
+    color:white;
+    animation: spin 1ms linear 0s infinite normal;
+}
+#div2:hover{
+    transform: rotate(315deg);
+}
+#div2:active{
+    transform: rotate(315deg);
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    background-color: red;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

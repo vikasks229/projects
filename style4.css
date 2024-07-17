@@ -1,0 +1,27 @@
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: aquamarine;
+}
+
+#Paragraph{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color:red;
+}
+
+#outer{
+    font-size: 25px;
+    color: red;
+}
+
+#inner{
+    font-size: 10px;
+    color: red;
+}

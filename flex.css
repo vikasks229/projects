@@ -1,0 +1,34 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none; /*to remover list item's dot or count or abcd */
+    display: inline;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("nature.jpg");
+    background-size: cover;
+
+    
+}
+.inner{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    background-image: url("background.jpg");
+    background-size: cover;
+    border: 5px solid green;
+    border-radius: 20px;
+}

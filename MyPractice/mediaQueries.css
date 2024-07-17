@@ -1,0 +1,28 @@
+div{
+    height: 350px;
+    width: 400px;
+    background-color:black;
+}
+@media(max-width:200px)
+{
+    div{
+        background-color: red;
+        font-size: 10px;
+    }
+}
+@media(min-width:200px) and (max-width:400px)
+{
+    div{
+        background-color: yellowgreen;
+        text-align: center;
+    }
+}
+@media(min-width:400px)
+{
+    div{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.div{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    color: red;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    border: 10px solid black;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    border-radius: 50%;
+    animation: spin 10s linear 0s infinite normal;
+}
+#div1{
+    height: 50px;
+    width: 190px;
+    background-color: aqua;
+    color: black;
+    position: relative;
+    left: 25px;
+    top:-150px;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
